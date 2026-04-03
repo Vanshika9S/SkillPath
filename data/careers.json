@@ -1,0 +1,559 @@
+{
+  "careers": [
+    {
+      "id": "software_engineer",
+      "name": "Software Engineer",
+      "category": "Tech",
+      "description": "Design and build software systems, applications, and services. Involves writing code, solving complex problems, and collaborating on large systems.",
+      "required_skills": {
+        "programming": 9,
+        "mathematics": 7,
+        "problem_solving": 9,
+        "logical_thinking": 9,
+        "communication": 5,
+        "creativity": 5,
+        "data_analysis": 6,
+        "english": 5
+      },
+      "required_aptitude": {
+        "logical": 75,
+        "quantitative": 65,
+        "verbal": 45
+      },
+      "related_interests": ["technology", "gaming", "robotics", "coding", "puzzles", "math"],
+      "skill_weights": {
+        "programming": 0.30,
+        "mathematics": 0.15,
+        "problem_solving": 0.20,
+        "logical_thinking": 0.20,
+        "communication": 0.05,
+        "creativity": 0.05,
+        "data_analysis": 0.03,
+        "english": 0.02
+      },
+      "learning_path": {
+        "fundamentals": ["mathematics_basics", "logical_thinking", "problem_solving"],
+        "intermediate": ["programming_basics", "data_structures"],
+        "advanced": ["algorithms", "system_design", "programming_advanced"]
+      }
+    },
+    {
+      "id": "data_scientist",
+      "name": "Data Scientist",
+      "category": "Tech",
+      "description": "Extract insights from large datasets using statistics, programming, and domain knowledge. Combines math, coding, and analytical thinking.",
+      "required_skills": {
+        "mathematics": 9,
+        "statistics": 8,
+        "programming": 7,
+        "data_analysis": 9,
+        "problem_solving": 8,
+        "logical_thinking": 7,
+        "communication": 6,
+        "english": 6
+      },
+      "required_aptitude": {
+        "logical": 70,
+        "quantitative": 85,
+        "verbal": 50
+      },
+      "related_interests": ["math", "research", "technology", "patterns", "science", "data"],
+      "skill_weights": {
+        "mathematics": 0.25,
+        "statistics": 0.20,
+        "programming": 0.15,
+        "data_analysis": 0.20,
+        "problem_solving": 0.10,
+        "logical_thinking": 0.05,
+        "communication": 0.03,
+        "english": 0.02
+      },
+      "learning_path": {
+        "fundamentals": ["mathematics_basics", "statistics_basics", "logical_thinking"],
+        "intermediate": ["programming_basics", "data_analysis_basics"],
+        "advanced": ["statistics_advanced", "machine_learning_concepts", "data_visualization"]
+      }
+    },
+    {
+      "id": "ui_ux_designer",
+      "name": "UI/UX Designer",
+      "category": "Tech",
+      "description": "Design user interfaces and experiences for websites and apps. Blends creativity with psychology to make products intuitive and beautiful.",
+      "required_skills": {
+        "creativity": 9,
+        "design": 9,
+        "communication": 7,
+        "empathy": 8,
+        "problem_solving": 7,
+        "english": 6,
+        "drawing": 6,
+        "programming": 3
+      },
+      "required_aptitude": {
+        "logical": 50,
+        "quantitative": 40,
+        "verbal": 70
+      },
+      "related_interests": ["art", "design", "technology", "psychology", "drawing", "aesthetics"],
+      "skill_weights": {
+        "creativity": 0.25,
+        "design": 0.25,
+        "communication": 0.15,
+        "empathy": 0.15,
+        "problem_solving": 0.10,
+        "english": 0.05,
+        "drawing": 0.03,
+        "programming": 0.02
+      },
+      "learning_path": {
+        "fundamentals": ["drawing_basics", "color_theory", "communication"],
+        "intermediate": ["design_principles", "user_research"],
+        "advanced": ["prototyping", "usability_testing", "design_systems"]
+      }
+    },
+    {
+      "id": "cybersecurity_analyst",
+      "name": "Cybersecurity Analyst",
+      "category": "Tech",
+      "description": "Protect computer systems and networks from digital attacks. Involves ethical hacking, system monitoring, and threat analysis.",
+      "required_skills": {
+        "logical_thinking": 9,
+        "problem_solving": 8,
+        "programming": 7,
+        "mathematics": 6,
+        "attention_to_detail": 9,
+        "english": 7,
+        "communication": 6,
+        "data_analysis": 6
+      },
+      "required_aptitude": {
+        "logical": 80,
+        "quantitative": 60,
+        "verbal": 55
+      },
+      "related_interests": ["technology", "coding", "puzzles", "gaming", "hacking", "security"],
+      "skill_weights": {
+        "logical_thinking": 0.25,
+        "problem_solving": 0.20,
+        "programming": 0.20,
+        "mathematics": 0.10,
+        "attention_to_detail": 0.10,
+        "english": 0.07,
+        "communication": 0.05,
+        "data_analysis": 0.03
+      },
+      "learning_path": {
+        "fundamentals": ["mathematics_basics", "logical_thinking", "networking_basics"],
+        "intermediate": ["programming_basics", "operating_systems"],
+        "advanced": ["network_security", "ethical_hacking", "cryptography"]
+      }
+    },
+    {
+      "id": "doctor",
+      "name": "Medical Doctor",
+      "category": "Science",
+      "description": "Diagnose and treat illnesses, injuries, and medical conditions. Requires deep biological knowledge, empathy, and critical thinking.",
+      "required_skills": {
+        "biology": 9,
+        "chemistry": 8,
+        "problem_solving": 8,
+        "empathy": 9,
+        "communication": 8,
+        "english": 7,
+        "mathematics": 6,
+        "attention_to_detail": 9
+      },
+      "required_aptitude": {
+        "logical": 75,
+        "quantitative": 70,
+        "verbal": 75
+      },
+      "related_interests": ["biology", "helping_others", "science", "health", "research"],
+      "skill_weights": {
+        "biology": 0.25,
+        "chemistry": 0.15,
+        "problem_solving": 0.15,
+        "empathy": 0.15,
+        "communication": 0.10,
+        "english": 0.08,
+        "mathematics": 0.07,
+        "attention_to_detail": 0.05
+      },
+      "learning_path": {
+        "fundamentals": ["biology_basics", "chemistry_basics", "mathematics_basics"],
+        "intermediate": ["anatomy", "physiology", "communication"],
+        "advanced": ["pharmacology", "clinical_skills", "medical_ethics"]
+      }
+    },
+    {
+      "id": "chartered_accountant",
+      "name": "Chartered Accountant",
+      "category": "Commerce",
+      "description": "Manage financial records, audits, and tax compliance for individuals and businesses. High-earning profession requiring precision and analytical skills.",
+      "required_skills": {
+        "mathematics": 9,
+        "attention_to_detail": 9,
+        "logical_thinking": 8,
+        "communication": 7,
+        "english": 7,
+        "data_analysis": 7,
+        "problem_solving": 7,
+        "economics": 6
+      },
+      "required_aptitude": {
+        "logical": 70,
+        "quantitative": 85,
+        "verbal": 60
+      },
+      "related_interests": ["math", "finance", "business", "economics", "numbers"],
+      "skill_weights": {
+        "mathematics": 0.25,
+        "attention_to_detail": 0.20,
+        "logical_thinking": 0.15,
+        "communication": 0.10,
+        "english": 0.10,
+        "data_analysis": 0.10,
+        "problem_solving": 0.07,
+        "economics": 0.03
+      },
+      "learning_path": {
+        "fundamentals": ["mathematics_basics", "logical_thinking", "economics_basics"],
+        "intermediate": ["accounting_principles", "data_analysis_basics"],
+        "advanced": ["taxation", "auditing", "financial_reporting"]
+      }
+    },
+    {
+      "id": "entrepreneur",
+      "name": "Entrepreneur / Business Owner",
+      "category": "Commerce",
+      "description": "Build and run your own business. Requires vision, risk-taking, leadership, and diverse skills across operations, finance, and marketing.",
+      "required_skills": {
+        "communication": 9,
+        "leadership": 8,
+        "problem_solving": 9,
+        "creativity": 8,
+        "mathematics": 6,
+        "english": 7,
+        "economics": 6,
+        "data_analysis": 5
+      },
+      "required_aptitude": {
+        "logical": 60,
+        "quantitative": 60,
+        "verbal": 70
+      },
+      "related_interests": ["business", "leadership", "finance", "innovation", "sales", "marketing"],
+      "skill_weights": {
+        "communication": 0.20,
+        "leadership": 0.20,
+        "problem_solving": 0.20,
+        "creativity": 0.15,
+        "mathematics": 0.08,
+        "english": 0.07,
+        "economics": 0.05,
+        "data_analysis": 0.05
+      },
+      "learning_path": {
+        "fundamentals": ["communication", "mathematics_basics", "economics_basics"],
+        "intermediate": ["leadership_skills", "business_fundamentals"],
+        "advanced": ["marketing", "financial_planning", "strategy"]
+      }
+    },
+    {
+      "id": "marketing_manager",
+      "name": "Marketing Manager",
+      "category": "Commerce",
+      "description": "Plan and execute marketing strategies to promote products and services. Blends creativity, psychology, and data analysis.",
+      "required_skills": {
+        "communication": 9,
+        "creativity": 8,
+        "english": 8,
+        "data_analysis": 7,
+        "empathy": 7,
+        "mathematics": 5,
+        "economics": 5,
+        "leadership": 6
+      },
+      "required_aptitude": {
+        "logical": 55,
+        "quantitative": 55,
+        "verbal": 80
+      },
+      "related_interests": ["marketing", "social_media", "writing", "business", "psychology", "design"],
+      "skill_weights": {
+        "communication": 0.25,
+        "creativity": 0.20,
+        "english": 0.20,
+        "data_analysis": 0.10,
+        "empathy": 0.10,
+        "mathematics": 0.05,
+        "economics": 0.05,
+        "leadership": 0.05
+      },
+      "learning_path": {
+        "fundamentals": ["communication", "english_writing", "economics_basics"],
+        "intermediate": ["marketing_basics", "data_analysis_basics"],
+        "advanced": ["digital_marketing", "brand_strategy", "consumer_psychology"]
+      }
+    },
+    {
+      "id": "graphic_designer",
+      "name": "Graphic Designer",
+      "category": "Arts",
+      "description": "Create visual content for print, digital media, branding, and advertising. Combines art with communication to convey messages visually.",
+      "required_skills": {
+        "creativity": 9,
+        "design": 9,
+        "drawing": 7,
+        "english": 6,
+        "communication": 6,
+        "attention_to_detail": 7,
+        "empathy": 5,
+        "mathematics": 3
+      },
+      "required_aptitude": {
+        "logical": 40,
+        "quantitative": 30,
+        "verbal": 60
+      },
+      "related_interests": ["art", "drawing", "design", "photography", "creativity", "aesthetics"],
+      "skill_weights": {
+        "creativity": 0.30,
+        "design": 0.30,
+        "drawing": 0.15,
+        "english": 0.08,
+        "communication": 0.07,
+        "attention_to_detail": 0.07,
+        "empathy": 0.02,
+        "mathematics": 0.01
+      },
+      "learning_path": {
+        "fundamentals": ["drawing_basics", "color_theory", "typography"],
+        "intermediate": ["design_software", "layout_principles"],
+        "advanced": ["branding", "motion_graphics", "portfolio_development"]
+      }
+    },
+    {
+      "id": "journalist",
+      "name": "Journalist / Content Writer",
+      "category": "Arts",
+      "description": "Research, write, and report news, stories, and content for media organizations. Requires strong writing, curiosity, and communication skills.",
+      "required_skills": {
+        "english": 9,
+        "communication": 9,
+        "creativity": 7,
+        "empathy": 7,
+        "logical_thinking": 6,
+        "attention_to_detail": 7,
+        "drawing": 2,
+        "mathematics": 3
+      },
+      "required_aptitude": {
+        "logical": 55,
+        "quantitative": 35,
+        "verbal": 90
+      },
+      "related_interests": ["writing", "reading", "current_events", "social_issues", "storytelling", "media"],
+      "skill_weights": {
+        "english": 0.30,
+        "communication": 0.25,
+        "creativity": 0.15,
+        "empathy": 0.10,
+        "logical_thinking": 0.10,
+        "attention_to_detail": 0.07,
+        "drawing": 0.01,
+        "mathematics": 0.02
+      },
+      "learning_path": {
+        "fundamentals": ["english_writing", "communication", "logical_thinking"],
+        "intermediate": ["research_skills", "storytelling"],
+        "advanced": ["investigative_journalism", "media_ethics", "digital_media"]
+      }
+    },
+    {
+      "id": "lawyer",
+      "name": "Lawyer / Legal Professional",
+      "category": "Arts",
+      "description": "Represent clients in legal matters, draft documents, and provide legal advice. Requires sharp argumentation, research, and communication skills.",
+      "required_skills": {
+        "english": 9,
+        "communication": 9,
+        "logical_thinking": 9,
+        "problem_solving": 8,
+        "attention_to_detail": 8,
+        "empathy": 6,
+        "mathematics": 4,
+        "economics": 4
+      },
+      "required_aptitude": {
+        "logical": 80,
+        "quantitative": 45,
+        "verbal": 85
+      },
+      "related_interests": ["debating", "reading", "social_issues", "justice", "writing", "current_events"],
+      "skill_weights": {
+        "english": 0.25,
+        "communication": 0.25,
+        "logical_thinking": 0.20,
+        "problem_solving": 0.15,
+        "attention_to_detail": 0.10,
+        "empathy": 0.03,
+        "mathematics": 0.01,
+        "economics": 0.01
+      },
+      "learning_path": {
+        "fundamentals": ["english_writing", "logical_thinking", "communication"],
+        "intermediate": ["research_skills", "argumentation"],
+        "advanced": ["legal_reasoning", "constitutional_law", "legal_writing"]
+      }
+    },
+    {
+      "id": "civil_engineer",
+      "name": "Civil Engineer",
+      "category": "Science",
+      "description": "Design and oversee construction of infrastructure like roads, bridges, and buildings. Combines math, physics, and practical problem-solving.",
+      "required_skills": {
+        "mathematics": 9,
+        "physics": 8,
+        "problem_solving": 8,
+        "drawing": 6,
+        "logical_thinking": 8,
+        "communication": 6,
+        "english": 5,
+        "data_analysis": 5
+      },
+      "required_aptitude": {
+        "logical": 75,
+        "quantitative": 80,
+        "verbal": 45
+      },
+      "related_interests": ["math", "building", "physics", "design", "environment", "science"],
+      "skill_weights": {
+        "mathematics": 0.25,
+        "physics": 0.20,
+        "problem_solving": 0.20,
+        "drawing": 0.10,
+        "logical_thinking": 0.10,
+        "communication": 0.07,
+        "english": 0.05,
+        "data_analysis": 0.03
+      },
+      "learning_path": {
+        "fundamentals": ["mathematics_basics", "physics_basics", "drawing_basics"],
+        "intermediate": ["mechanics", "structural_basics", "problem_solving"],
+        "advanced": ["structural_design", "construction_management", "environmental_engineering"]
+      }
+    },
+    {
+      "id": "teacher",
+      "name": "Teacher / Educator",
+      "category": "Arts",
+      "description": "Educate and inspire students across various subjects. Requires patience, strong communication, subject mastery, and empathy.",
+      "required_skills": {
+        "communication": 9,
+        "empathy": 9,
+        "english": 7,
+        "logical_thinking": 6,
+        "creativity": 7,
+        "attention_to_detail": 6,
+        "mathematics": 5,
+        "leadership": 7
+      },
+      "required_aptitude": {
+        "logical": 60,
+        "quantitative": 50,
+        "verbal": 80
+      },
+      "related_interests": ["teaching", "helping_others", "reading", "writing", "psychology", "leadership"],
+      "skill_weights": {
+        "communication": 0.25,
+        "empathy": 0.20,
+        "english": 0.15,
+        "logical_thinking": 0.10,
+        "creativity": 0.10,
+        "attention_to_detail": 0.07,
+        "mathematics": 0.05,
+        "leadership": 0.08
+      },
+      "learning_path": {
+        "fundamentals": ["communication", "english_writing", "empathy"],
+        "intermediate": ["subject_mastery", "pedagogy_basics"],
+        "advanced": ["curriculum_design", "classroom_management", "educational_psychology"]
+      }
+    },
+    {
+      "id": "financial_analyst",
+      "name": "Financial Analyst",
+      "category": "Commerce",
+      "description": "Analyze financial data to guide investment decisions. Strong quantitative skills, attention to detail, and business acumen are essential.",
+      "required_skills": {
+        "mathematics": 9,
+        "data_analysis": 9,
+        "economics": 8,
+        "logical_thinking": 8,
+        "attention_to_detail": 8,
+        "english": 7,
+        "communication": 6,
+        "statistics": 6
+      },
+      "required_aptitude": {
+        "logical": 70,
+        "quantitative": 88,
+        "verbal": 58
+      },
+      "related_interests": ["finance", "math", "economics", "investing", "business", "data"],
+      "skill_weights": {
+        "mathematics": 0.25,
+        "data_analysis": 0.20,
+        "economics": 0.15,
+        "logical_thinking": 0.15,
+        "attention_to_detail": 0.10,
+        "english": 0.07,
+        "communication": 0.05,
+        "statistics": 0.03
+      },
+      "learning_path": {
+        "fundamentals": ["mathematics_basics", "economics_basics", "logical_thinking"],
+        "intermediate": ["statistics_basics", "financial_accounting"],
+        "advanced": ["investment_analysis", "financial_modeling", "risk_management"]
+      }
+    },
+    {
+      "id": "architect",
+      "name": "Architect",
+      "category": "Arts",
+      "description": "Design buildings and spaces that are functional, safe, and aesthetically pleasing. Blends art, engineering, and environmental thinking.",
+      "required_skills": {
+        "creativity": 9,
+        "drawing": 9,
+        "mathematics": 8,
+        "design": 9,
+        "problem_solving": 7,
+        "communication": 7,
+        "physics": 6,
+        "attention_to_detail": 8
+      },
+      "required_aptitude": {
+        "logical": 65,
+        "quantitative": 70,
+        "verbal": 55
+      },
+      "related_interests": ["drawing", "design", "building", "art", "environment", "aesthetics"],
+      "skill_weights": {
+        "creativity": 0.20,
+        "drawing": 0.20,
+        "mathematics": 0.15,
+        "design": 0.20,
+        "problem_solving": 0.10,
+        "communication": 0.07,
+        "physics": 0.05,
+        "attention_to_detail": 0.03
+      },
+      "learning_path": {
+        "fundamentals": ["drawing_basics", "mathematics_basics", "design_principles"],
+        "intermediate": ["architectural_history", "structural_basics", "color_theory"],
+        "advanced": ["architectural_design", "construction_technology", "urban_planning"]
+      }
+    }
+  ]
+}

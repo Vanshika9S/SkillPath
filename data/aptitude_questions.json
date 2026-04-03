@@ -1,0 +1,300 @@
+{
+  "aptitude_questions": [
+    {
+      "id": "L001",
+      "category": "logical",
+      "question": "If all Bloops are Razzles and all Razzles are Lazzles, then all Bloops are:",
+      "options": ["Not Lazzles", "Lazzles", "Razzles only", "None of the above"],
+      "answer": 1,
+      "explanation": "Since Bloops → Razzles → Lazzles, by transitivity all Bloops are Lazzles.",
+      "difficulty": 1
+    },
+    {
+      "id": "L002",
+      "category": "logical",
+      "question": "A is B's brother. B is C's father. C is D's sister. What is D's relationship to A?",
+      "options": ["Uncle", "Nephew/Niece", "Cousin", "Brother"],
+      "answer": 1,
+      "explanation": "A is B's brother. B is C's father (so A is C's uncle). D is C's sibling, so D is A's nephew or niece.",
+      "difficulty": 2
+    },
+    {
+      "id": "L003",
+      "category": "logical",
+      "question": "Find the next in series: 2, 6, 12, 20, 30, ?",
+      "options": ["40", "42", "44", "36"],
+      "answer": 1,
+      "explanation": "Differences are 4, 6, 8, 10, 12 — arithmetic progression of even numbers. 30 + 12 = 42.",
+      "difficulty": 2
+    },
+    {
+      "id": "L004",
+      "category": "logical",
+      "question": "Which figure completes the pattern? Square → Circle → Square → Circle → ?",
+      "options": ["Triangle", "Square", "Circle", "Pentagon"],
+      "answer": 1,
+      "explanation": "The pattern alternates Square and Circle. After Circle comes Square.",
+      "difficulty": 1
+    },
+    {
+      "id": "L005",
+      "category": "logical",
+      "question": "All students who study hard pass. Riya did not pass. Therefore:",
+      "options": ["Riya studied hard", "Riya did not study hard", "Riya is not a student", "Cannot be determined"],
+      "answer": 1,
+      "explanation": "Contrapositive: if someone did not pass, they did not study hard. So Riya did not study hard.",
+      "difficulty": 2
+    },
+    {
+      "id": "L006",
+      "category": "logical",
+      "question": "If PENCIL is coded as QFODLM, how is PAPER coded?",
+      "options": ["QBQFS", "QBPFS", "RBQFS", "QAQFS"],
+      "answer": 0,
+      "explanation": "Each letter is shifted by +1 in the alphabet. P→Q, A→B, P→Q, E→F, R→S = QBQFS.",
+      "difficulty": 2
+    },
+    {
+      "id": "L007",
+      "category": "logical",
+      "question": "In a certain language, 'pit na sa' means 'come with me', 'na da ja' means 'go with him'. What does 'na' mean?",
+      "options": ["come", "me", "with", "go"],
+      "answer": 2,
+      "explanation": "'na' appears in both sentences. The common meaning between 'come with me' and 'go with him' is 'with'.",
+      "difficulty": 3
+    },
+    {
+      "id": "L008",
+      "category": "logical",
+      "question": "Find the odd one out: Doctor, Nurse, Teacher, Hospital",
+      "options": ["Doctor", "Nurse", "Teacher", "Hospital"],
+      "answer": 3,
+      "explanation": "Doctor, Nurse, Teacher are professions (people). Hospital is a place, not a profession.",
+      "difficulty": 1
+    },
+    {
+      "id": "L009",
+      "category": "logical",
+      "question": "Look at this series: 1, 4, 9, 16, 25, ? What comes next?",
+      "options": ["30", "35", "36", "49"],
+      "answer": 2,
+      "explanation": "These are perfect squares: 1², 2², 3², 4², 5². The next is 6² = 36.",
+      "difficulty": 1
+    },
+    {
+      "id": "L010",
+      "category": "logical",
+      "question": "Six people sit in a row. A is to the right of B and to the left of C. D is to the right of C. Who is in the middle?",
+      "options": ["A", "B", "C", "D"],
+      "answer": 2,
+      "explanation": "Order: B, A, C, D (from left). With 6 seats, A and C are around the middle. C is at position 3 out of 4 known.",
+      "difficulty": 3
+    },
+    {
+      "id": "Q001",
+      "category": "quantitative",
+      "question": "A train travels at 60 km/h. How far does it travel in 2.5 hours?",
+      "options": ["120 km", "130 km", "150 km", "160 km"],
+      "answer": 2,
+      "explanation": "Distance = Speed × Time = 60 × 2.5 = 150 km.",
+      "difficulty": 1
+    },
+    {
+      "id": "Q002",
+      "category": "quantitative",
+      "question": "If 8 men complete a job in 12 days, how many days will 16 men take?",
+      "options": ["24 days", "6 days", "8 days", "4 days"],
+      "answer": 1,
+      "explanation": "Total work = 8 × 12 = 96 man-days. With 16 men: 96 ÷ 16 = 6 days.",
+      "difficulty": 2
+    },
+    {
+      "id": "Q003",
+      "category": "quantitative",
+      "question": "What is 15% of 240?",
+      "options": ["30", "36", "38", "40"],
+      "answer": 1,
+      "explanation": "15% of 240 = (15/100) × 240 = 36.",
+      "difficulty": 1
+    },
+    {
+      "id": "Q004",
+      "category": "quantitative",
+      "question": "The average of 5 numbers is 20. If one number is removed, the average of the remaining 4 is 18. What is the removed number?",
+      "options": ["24", "28", "30", "22"],
+      "answer": 1,
+      "explanation": "Total of 5 = 100. Total of 4 = 72. Removed number = 100 - 72 = 28.",
+      "difficulty": 2
+    },
+    {
+      "id": "Q005",
+      "category": "quantitative",
+      "question": "Simplify: (3/4) ÷ (9/16)",
+      "options": ["4/3", "27/64", "3/4", "16/9"],
+      "answer": 0,
+      "explanation": "(3/4) ÷ (9/16) = (3/4) × (16/9) = 48/36 = 4/3.",
+      "difficulty": 2
+    },
+    {
+      "id": "Q006",
+      "category": "quantitative",
+      "question": "A product costs ₹800. After a 25% discount, what is the selling price?",
+      "options": ["₹600", "₹620", "₹650", "₹700"],
+      "answer": 0,
+      "explanation": "Discount = 25% of 800 = 200. Selling price = 800 - 200 = ₹600.",
+      "difficulty": 1
+    },
+    {
+      "id": "Q007",
+      "category": "quantitative",
+      "question": "If x + y = 10 and x - y = 4, what is the value of x?",
+      "options": ["3", "5", "7", "8"],
+      "answer": 2,
+      "explanation": "Adding both equations: 2x = 14, so x = 7.",
+      "difficulty": 2
+    },
+    {
+      "id": "Q008",
+      "category": "quantitative",
+      "question": "The ratio of boys to girls in a class is 3:2. If there are 30 boys, how many students are there in total?",
+      "options": ["45", "50", "55", "60"],
+      "answer": 1,
+      "explanation": "3 parts = 30 boys, so 1 part = 10. Girls = 2 × 10 = 20. Total = 30 + 20 = 50.",
+      "difficulty": 1
+    },
+    {
+      "id": "Q009",
+      "category": "quantitative",
+      "question": "Find the area of a triangle with base 10 cm and height 6 cm.",
+      "options": ["30 cm²", "60 cm²", "15 cm²", "20 cm²"],
+      "answer": 0,
+      "explanation": "Area = (1/2) × base × height = (1/2) × 10 × 6 = 30 cm².",
+      "difficulty": 1
+    },
+    {
+      "id": "Q010",
+      "category": "quantitative",
+      "question": "A sum of ₹5000 is invested at 10% simple interest per year. What is the interest after 3 years?",
+      "options": ["₹1000", "₹1200", "₹1500", "₹1800"],
+      "answer": 2,
+      "explanation": "SI = (P × R × T) / 100 = (5000 × 10 × 3) / 100 = ₹1500.",
+      "difficulty": 2
+    },
+    {
+      "id": "V001",
+      "category": "verbal",
+      "question": "Choose the word most similar in meaning to 'ABUNDANT':",
+      "options": ["Scarce", "Plentiful", "Adequate", "Limited"],
+      "answer": 1,
+      "explanation": "Abundant means existing in large quantities. Plentiful is its closest synonym.",
+      "difficulty": 1
+    },
+    {
+      "id": "V002",
+      "category": "verbal",
+      "question": "Choose the word OPPOSITE in meaning to 'DILIGENT':",
+      "options": ["Hardworking", "Careful", "Lazy", "Active"],
+      "answer": 2,
+      "explanation": "Diligent means hardworking and careful. Its antonym is Lazy.",
+      "difficulty": 1
+    },
+    {
+      "id": "V003",
+      "category": "verbal",
+      "question": "Fill in the blank: The scientists ______ the results of the experiment before publishing.",
+      "options": ["ignored", "verified", "forgot", "guessed"],
+      "answer": 1,
+      "explanation": "Scientists check and confirm results before publishing. 'Verified' best fits the context.",
+      "difficulty": 1
+    },
+    {
+      "id": "V004",
+      "category": "verbal",
+      "question": "Identify the grammatically correct sentence:",
+      "options": [
+        "She don't know the answer.",
+        "They was playing in the park.",
+        "He has completed his homework.",
+        "We was going to school."
+      ],
+      "answer": 2,
+      "explanation": "'He has completed his homework' uses the correct subject-verb agreement and tense.",
+      "difficulty": 2
+    },
+    {
+      "id": "V005",
+      "category": "verbal",
+      "question": "Read the passage: 'The Arctic is warming twice as fast as the rest of the world.' What can we infer?",
+      "options": [
+        "The Arctic is not affected by climate change.",
+        "The Arctic is experiencing accelerated climate impacts.",
+        "Other regions are unaffected by climate change.",
+        "The Arctic temperature is now the same as the equator."
+      ],
+      "answer": 1,
+      "explanation": "The passage says the Arctic warms faster, implying it faces intensified climate impacts.",
+      "difficulty": 2
+    },
+    {
+      "id": "V006",
+      "category": "verbal",
+      "question": "Choose the correct meaning of the idiom: 'Hit the nail on the head'",
+      "options": [
+        "To cause physical harm",
+        "To make a mistake",
+        "To describe something exactly correctly",
+        "To be confused"
+      ],
+      "answer": 2,
+      "explanation": "This idiom means to describe or identify something with perfect accuracy.",
+      "difficulty": 2
+    },
+    {
+      "id": "V007",
+      "category": "verbal",
+      "question": "What is the best one-word substitute for: 'A person who knows many languages'?",
+      "options": ["Linguist", "Polyglot", "Bilingual", "Translator"],
+      "answer": 1,
+      "explanation": "A Polyglot is a person who speaks or writes several languages.",
+      "difficulty": 2
+    },
+    {
+      "id": "V008",
+      "category": "verbal",
+      "question": "Arrange in logical order: 1. Draft, 2. Publish, 3. Research, 4. Edit, 5. Outline",
+      "options": ["3,5,1,4,2", "1,3,5,4,2", "5,3,1,4,2", "3,1,5,4,2"],
+      "answer": 0,
+      "explanation": "Logical order for writing: Research → Outline → Draft → Edit → Publish (3,5,1,4,2).",
+      "difficulty": 3
+    },
+    {
+      "id": "V009",
+      "category": "verbal",
+      "question": "Which word does NOT belong in the group? Curious, Inquisitive, Interested, Indifferent",
+      "options": ["Curious", "Inquisitive", "Interested", "Indifferent"],
+      "answer": 3,
+      "explanation": "Curious, Inquisitive, and Interested all mean having desire to know. Indifferent means lacking interest.",
+      "difficulty": 1
+    },
+    {
+      "id": "V010",
+      "category": "verbal",
+      "question": "Complete the analogy: Doctor : Hospital :: Teacher : ?",
+      "options": ["Student", "School", "Book", "Education"],
+      "answer": 1,
+      "explanation": "A Doctor works at a Hospital. Similarly, a Teacher works at a School.",
+      "difficulty": 1
+    }
+  ],
+  "scoring": {
+    "per_question": 10,
+    "max_per_category": 100,
+    "categories": ["logical", "quantitative", "verbal"],
+    "levels": {
+      "beginner": [0, 40],
+      "developing": [41, 60],
+      "proficient": [61, 80],
+      "advanced": [81, 100]
+    }
+  }
+}

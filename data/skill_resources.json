@@ -1,0 +1,220 @@
+{
+  "skills": {
+    "mathematics_basics": {
+      "label": "Mathematics Basics",
+      "description": "Arithmetic, algebra, number systems",
+      "estimated_days": 14,
+      "resources": ["NCERT Math Textbook", "Khan Academy Math", "Doubtnut App"],
+      "dependencies": [],
+      "level": "foundational"
+    },
+    "statistics_basics": {
+      "label": "Statistics Basics",
+      "description": "Mean, median, mode, probability",
+      "estimated_days": 10,
+      "resources": ["NCERT Statistics", "StatQuest YouTube"],
+      "dependencies": ["mathematics_basics"],
+      "level": "foundational"
+    },
+    "statistics_advanced": {
+      "label": "Advanced Statistics",
+      "description": "Hypothesis testing, regression, distributions",
+      "estimated_days": 21,
+      "resources": ["OpenStax Statistics", "Coursera Statistics"],
+      "dependencies": ["statistics_basics"],
+      "level": "advanced"
+    },
+    "logical_thinking": {
+      "label": "Logical Thinking",
+      "description": "Deductive/inductive reasoning, pattern recognition",
+      "estimated_days": 10,
+      "resources": ["Brilliant.org Logic", "GeeksforGeeks Puzzles"],
+      "dependencies": [],
+      "level": "foundational"
+    },
+    "problem_solving": {
+      "label": "Problem Solving",
+      "description": "Breaking down complex problems, structured approaches",
+      "estimated_days": 14,
+      "resources": ["Thinking Mathematically (book)", "Leetcode Easy"],
+      "dependencies": ["logical_thinking"],
+      "level": "intermediate"
+    },
+    "programming_basics": {
+      "label": "Programming Basics",
+      "description": "Variables, loops, conditions, functions in Python",
+      "estimated_days": 21,
+      "resources": ["CS50 Harvard (free)", "Python.org Tutorial", "Codecademy Python"],
+      "dependencies": ["logical_thinking", "mathematics_basics"],
+      "level": "intermediate"
+    },
+    "programming_advanced": {
+      "label": "Advanced Programming",
+      "description": "OOP, design patterns, system design concepts",
+      "estimated_days": 30,
+      "resources": ["Clean Code (book)", "Refactoring Guru", "LeetCode Medium"],
+      "dependencies": ["programming_basics", "data_structures"],
+      "level": "advanced"
+    },
+    "data_structures": {
+      "label": "Data Structures",
+      "description": "Arrays, linked lists, trees, graphs, hashmaps",
+      "estimated_days": 21,
+      "resources": ["GeeksforGeeks DSA", "Visualgo.net", "CLRS Book"],
+      "dependencies": ["programming_basics"],
+      "level": "advanced"
+    },
+    "data_analysis_basics": {
+      "label": "Data Analysis Basics",
+      "description": "Spreadsheets, charts, basic data interpretation",
+      "estimated_days": 10,
+      "resources": ["Google Sheets Tutorial", "Excel for Beginners (YouTube)"],
+      "dependencies": ["mathematics_basics"],
+      "level": "intermediate"
+    },
+    "communication": {
+      "label": "Communication Skills",
+      "description": "Verbal and written communication, active listening",
+      "estimated_days": 14,
+      "resources": ["Toastmasters Club", "Public Speaking (Coursera)", "Dale Carnegie Book"],
+      "dependencies": [],
+      "level": "foundational"
+    },
+    "english_writing": {
+      "label": "English Writing",
+      "description": "Grammar, essay writing, comprehension",
+      "estimated_days": 21,
+      "resources": ["Grammarly Blog", "British Council Online", "CBSE English textbook"],
+      "dependencies": [],
+      "level": "foundational"
+    },
+    "drawing_basics": {
+      "label": "Drawing Basics",
+      "description": "Sketching, proportion, shading, perspective",
+      "estimated_days": 21,
+      "resources": ["DrawABox (free course)", "Proko YouTube Channel"],
+      "dependencies": [],
+      "level": "foundational"
+    },
+    "color_theory": {
+      "label": "Color Theory",
+      "description": "Color wheel, harmony, contrast, application",
+      "estimated_days": 7,
+      "resources": ["Canva Color Theory Guide", "Adobe Color Tutorial"],
+      "dependencies": ["drawing_basics"],
+      "level": "foundational"
+    },
+    "design_principles": {
+      "label": "Design Principles",
+      "description": "Balance, alignment, hierarchy, contrast",
+      "estimated_days": 10,
+      "resources": ["Elements of Typographic Style", "Figma Design Tutorial (YouTube)"],
+      "dependencies": ["color_theory"],
+      "level": "intermediate"
+    },
+    "design_software": {
+      "label": "Design Software",
+      "description": "Figma, Canva, Adobe Illustrator basics",
+      "estimated_days": 14,
+      "resources": ["Figma YouTube Tutorial", "Adobe Free Tutorials"],
+      "dependencies": ["design_principles"],
+      "level": "intermediate"
+    },
+    "economics_basics": {
+      "label": "Economics Basics",
+      "description": "Supply, demand, market types, macroeconomics",
+      "estimated_days": 14,
+      "resources": ["NCERT Economics", "CrashCourse Economics YouTube"],
+      "dependencies": ["mathematics_basics"],
+      "level": "foundational"
+    },
+    "biology_basics": {
+      "label": "Biology Basics",
+      "description": "Cell biology, genetics, ecology, body systems",
+      "estimated_days": 21,
+      "resources": ["NCERT Biology", "CrashCourse Biology YouTube"],
+      "dependencies": [],
+      "level": "foundational"
+    },
+    "chemistry_basics": {
+      "label": "Chemistry Basics",
+      "description": "Atoms, compounds, reactions, periodic table",
+      "estimated_days": 21,
+      "resources": ["NCERT Chemistry", "CrashCourse Chemistry YouTube"],
+      "dependencies": ["mathematics_basics"],
+      "level": "foundational"
+    },
+    "physics_basics": {
+      "label": "Physics Basics",
+      "description": "Motion, forces, energy, thermodynamics",
+      "estimated_days": 21,
+      "resources": ["NCERT Physics", "Walter Lewin MIT Lectures (YouTube)"],
+      "dependencies": ["mathematics_basics"],
+      "level": "foundational"
+    },
+    "networking_basics": {
+      "label": "Networking Basics",
+      "description": "TCP/IP, DNS, HTTP, network protocols",
+      "estimated_days": 14,
+      "resources": ["CS50 Network", "Cisco NetAcad Free"],
+      "dependencies": ["logical_thinking"],
+      "level": "intermediate"
+    },
+    "leadership_skills": {
+      "label": "Leadership Skills",
+      "description": "Team management, decision making, delegation",
+      "estimated_days": 14,
+      "resources": ["MindTools Leadership Articles", "Simon Sinek TED Talks"],
+      "dependencies": ["communication"],
+      "level": "intermediate"
+    },
+    "research_skills": {
+      "label": "Research Skills",
+      "description": "Literature review, citation, fact-checking",
+      "estimated_days": 10,
+      "resources": ["Google Scholar Guide", "Library Research Tutorials"],
+      "dependencies": ["english_writing"],
+      "level": "intermediate"
+    },
+    "marketing_basics": {
+      "label": "Marketing Basics",
+      "description": "4 Ps of marketing, consumer behavior, branding",
+      "estimated_days": 14,
+      "resources": ["Kotler Marketing Book Summary", "HubSpot Free Marketing Course"],
+      "dependencies": ["communication", "economics_basics"],
+      "level": "intermediate"
+    },
+    "accounting_principles": {
+      "label": "Accounting Principles",
+      "description": "Journal entries, ledger, balance sheet, P&L",
+      "estimated_days": 21,
+      "resources": ["NCERT Accountancy", "AccountingCoach.com"],
+      "dependencies": ["mathematics_basics", "economics_basics"],
+      "level": "intermediate"
+    },
+    "typography": {
+      "label": "Typography",
+      "description": "Font selection, spacing, hierarchy in type",
+      "estimated_days": 7,
+      "resources": ["Fontpair.co Guides", "Google Fonts Knowledge"],
+      "dependencies": ["design_principles"],
+      "level": "intermediate"
+    },
+    "branding": {
+      "label": "Branding",
+      "description": "Brand identity, visual consistency, strategy",
+      "estimated_days": 14,
+      "resources": ["Logo Design Love (book)", "99designs Blog"],
+      "dependencies": ["design_principles", "color_theory"],
+      "level": "advanced"
+    },
+    "algorithms": {
+      "label": "Algorithms",
+      "description": "Sorting, searching, dynamic programming",
+      "estimated_days": 30,
+      "resources": ["CLRS Book", "GeeksforGeeks Algorithms", "AlgoExpert"],
+      "dependencies": ["data_structures"],
+      "level": "advanced"
+    }
+  }
+}
